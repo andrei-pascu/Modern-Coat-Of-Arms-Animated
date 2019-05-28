@@ -3,6 +3,7 @@ var y = true;
 var z = true;
 $('.do-it').click(function() {
     if (y) {
+        $('body').addClass('svg-fix');
         $('.do-it').siblings('svg').removeClass('path2');
         $('.do-it').css({'pointer-events': 'none'});
         if (x) {

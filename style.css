@@ -89,7 +89,8 @@ body {
     stroke:#000000;
     stroke-width:6;
     stroke-miterlimit:10;
-    transition-duration: 2s;
+    transition-duration: 0s;
+    fill: none;
     fill: transparent;
 }
 
@@ -106,23 +107,19 @@ body {
 /* shield over left */
 #path-1 {
     stroke-dashoffset: 2950px;
-    stroke-dasharray: 2950px;
-    transition-duration: 2s;}
+    stroke-dasharray: 2950px;}
 /* shield over right */
 #path-2 {
     stroke-dashoffset: 2950px;
-    stroke-dasharray: 2950px;
-    transition-duration: 2s;}
+    stroke-dasharray: 2950px;}
 /* shield inner left */
 #path-3 {
     stroke-dashoffset: 4360px;
-    stroke-dasharray: 4360px;
-    transition-duration: 2s;}
+    stroke-dasharray: 4360px;}
 /* shield inner right */
 #path-4 {
     stroke-dashoffset: 4360px;
-    stroke-dasharray: 4360px;
-    transition-duration: 2s;}
+    stroke-dasharray: 4360px;}
 
 
 
@@ -130,33 +127,23 @@ body {
 /* horizontal spacer */
 #path-5 {
     stroke-dashoffset: 690px;
-    stroke-dasharray: 690px;
-    transition-duration: 2s;
-    transition-delay: 4s;}
+    stroke-dasharray: 690px;}
 /* L */
 #path-6 {
     stroke-dashoffset: 1400px;
-    stroke-dasharray: 1400px;
-    transition-duration: 2s;
-    transition-delay: 4s;}
+    stroke-dasharray: 1400px;}
 /* A */
 #path-7 {
     stroke-dashoffset: 960px;
-    stroke-dasharray: 960px;
-    transition-duration: 2s;
-    transition-delay: 4s;}
+    stroke-dasharray: 960px;}
 /* a */
 #path-8 {
     stroke-dashoffset: 150px;
-    stroke-dasharray: 150px;
-    transition-duration: 2s;
-    transition-delay: 4s;}
+    stroke-dasharray: 150px;}
 /* N */
 #path-9 {
     stroke-dashoffset: 3250px;
-    stroke-dasharray: 3250px;
-    transition-delay: 4s;
-    transition-duration: 2.5s;}
+    stroke-dasharray: 3250px;}
 
 
 
@@ -166,21 +153,15 @@ body {
 /* C */
 #path-10 {
     stroke-dashoffset: 4230px;
-    stroke-dasharray: 4230px;
-    transition-delay: 7.5s;
-    transition-duration: 3s;}
+    stroke-dasharray: 4230px;}
 /* E */
 #path-11 {
     stroke-dashoffset: 2200px;
-    stroke-dasharray: 2200px;
-    transition-delay: 7.5s;
-    transition-duration: 3s;}
+    stroke-dasharray: 2200px;}
 /* [] */
 #path-12 {
     stroke-dashoffset: 390px;
-    stroke-dasharray: 390px;
-    transition-delay: 9.5s;
-    transition-duration: 1s;}
+    stroke-dasharray: 390px;}
 
 
 
@@ -191,36 +172,113 @@ body {
 #path-13 {
     stroke-dashoffset: 1430px;
     stroke-dasharray: 1430px;
-    transition-delay: 11.5s;
-    transition-duration: 2s;
 }
 
 /* A */
 #path-14 {
     stroke-dashoffset: 1530px;
     stroke-dasharray: 1530px;
-    transition-delay: 11.5s;
-    transition-duration: 2s;
 }
 
 /* a */
 #path-15 {
     stroke-dashoffset: 400px;
     stroke-dasharray: 400px;
-    transition-delay: 12.5s;
-    transition-duration: 1s;
 }
 
 /* p */
 #path-16 {
     stroke-dashoffset: 520px;
     stroke-dasharray: 520px;
-    transition-delay: 12.5s;
-    transition-duration: 1s;
 }
 
 
 
+
+
+/* shield over left */
+.svg-fix #path-1 {
+    transition-duration: 2s;}
+/* shield over right */
+.svg-fix #path-2 {
+    transition-duration: 2s;}
+/* shield inner left */
+.svg-fix #path-3 {
+    transition-duration: 2s;}
+/* shield inner right */
+.svg-fix #path-4 {
+    transition-duration: 2s;}
+
+
+
+
+/* horizontal spacer */
+.svg-fix #path-5 {
+    transition-duration: 2s;
+    transition-delay: 4s;}
+/* L */
+.svg-fix #path-6 {
+    transition-duration: 2s;
+    transition-delay: 4s;}
+/* A */
+.svg-fix #path-7 {
+    transition-duration: 2s;
+    transition-delay: 4s;}
+/* a */
+.svg-fix #path-8 {
+    transition-duration: 2s;
+    transition-delay: 4s;}
+/* N */
+.svg-fix #path-9 {
+    transition-delay: 4s;
+    transition-duration: 2.5s;}
+
+
+
+
+
+
+/* C */
+.svg-fix #path-10 {
+    transition-delay: 7.5s;
+    transition-duration: 3s;}
+/* E */
+.svg-fix #path-11 {
+    transition-delay: 7.5s;
+    transition-duration: 3s;}
+/* [] */
+.svg-fix #path-12 {
+    transition-delay: 9.5s;
+    transition-duration: 1s;}
+
+
+
+
+
+
+/* P */
+.svg-fix #path-13 {
+    transition-delay: 11.5s;
+    transition-duration: 2s;
+}
+
+/* A */
+.svg-fix #path-14 {
+    transition-delay: 11.5s;
+    transition-duration: 2s;
+}
+
+/* a */
+.svg-fix #path-15 {
+    transition-delay: 12.5s;
+    transition-duration: 1s;
+}
+
+/* p */
+.svg-fix #path-16 {
+    transition-delay: 12.5s;
+    transition-duration: 1s;
+}
 
 
 
