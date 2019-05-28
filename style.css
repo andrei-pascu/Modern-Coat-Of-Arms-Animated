@@ -90,7 +90,7 @@ body {
     stroke-width:6;
     stroke-miterlimit:10;
     transition-duration: 2s;
-    fill: rgba(0, 0, 0, 0);
+    fill: transparent;
 }
 
 .path2 path {
